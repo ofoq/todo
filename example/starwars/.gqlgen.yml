@@ -1,0 +1,15 @@
+models:
+  Droid:
+    model: github.com/99designs/gqlgen/example/starwars.Droid
+  FriendsConnection:
+    model: github.com/99designs/gqlgen/example/starwars.FriendsConnection
+  Human:
+    model: github.com/99designs/gqlgen/example/starwars.Human
+  Review:
+    model: github.com/99designs/gqlgen/example/starwars.Review
+  ReviewInput:
+    model: github.com/99designs/gqlgen/example/starwars.Review
+  Starship:
+    fields:
+      length:
+        resolver: true
